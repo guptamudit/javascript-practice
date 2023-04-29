@@ -1,0 +1,18 @@
+//practice on lenth of strings.
+var tweet = prompt("write Here!");
+var tweet_count = tweet.length;
+alert("You have written " + tweet_count + " caharcter, You have " + (140-tweet_count) + " characters left");
+
+//practice on slicing and extraction.
+var tweet = prompt("write Here!");
+var tweetunder140 = tweet.slice(0,140);
+alert(tweetunder140);
+
+//practice on case of word (upper and lower).
+var name = prompt("What is your Name?"); 
+var firstchar = name.slice(0,1);
+var uppercase = firstchar.toUpperCase();
+var restofname = name.slice(1,name.length);
+var restnamelower = restofname.toLowerCase();
+var capitalisedname = uppercase + restnamelower;
+alert("Hello, " + capitalisedname);
