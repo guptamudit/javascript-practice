@@ -61,3 +61,5 @@ function getMilk(money) {
   console.log("enterHouse");
 }
 getMilk(10);
+
+// Output and Return Values
