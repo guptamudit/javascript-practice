@@ -24,4 +24,40 @@ var dogage = prompt("What is your dog's age?");
 var humanage = ((dogage - 2) * 4) + 21;
 alert("the humanage corresponding the dog age is: " + humanage);
 
-//
+//creating and calling functions
+//creating//
+function func_name(){
+code here
+}
+//calling//
+func_name();
+
+// Parameters and Arguments
+function func_name(input){
+}
+//calling//
+func_name(no of input);
+//Code example:
+function getMilk(money) {   
+  console.log("leaveHouse");
+  console.log("moveRight");
+  console.log("moveRight");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveRight");
+    var numberOfBottles = money /  2;      
+  console.log("moveRight");
+  console.log("Buy " + numberOfBottles + " bottles of milk");
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("enterHouse");
+}
+getMilk(10);
