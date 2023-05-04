@@ -18,3 +18,10 @@ var capitalisedname = uppercase + restnamelower;
 alert("Hello, " + capitalisedname);
 
 //arithmetic operators
+//Modulo - Gives remainder of thr problem.
+//Precendence - Multiply,Divide >>> add,subtract
+var dogage = prompt("What is your dog's age?");
+var humanage = ((dogage - 2) * 4) + 21;
+alert("the humanage corresponding the dog age is: " + humanage);
+
+//
