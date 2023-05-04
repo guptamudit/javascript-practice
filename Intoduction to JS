@@ -16,3 +16,5 @@ var restofname = name.slice(1,name.length);
 var restnamelower = restofname.toLowerCase();
 var capitalisedname = uppercase + restnamelower;
 alert("Hello, " + capitalisedname);
+
+//arithmetic operators
