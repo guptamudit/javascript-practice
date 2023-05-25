@@ -63,3 +63,51 @@ function getMilk(money) {
 getMilk(10);
 
 // Output and Return Values
+to get output:
+use " return " function.
+//code example
+function getMilk(money,costperbottle) {   
+  console.log("leaveHouse");
+  console.log("moveRight");
+  console.log("moveRight");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveRight");        
+  console.log("moveRight");
+  console.log("Buy " + calcbottles(money,costperbottle) + " bottles of milk");
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveLeft")
+  console.log("moveLeft");
+  console.log("enterHouse");
+
+  return calcChange(money,costperbottle);
+}
+
+function calcbottles(startingmoney, costperbottle){
+  var numberOfBottles = Math.floor(startingmoney / costperbottle);
+  return numberOfBottles;
+}
+function calcChange(startingmoney, numberOfBottles){
+  var change = (startingmoney % numberOfBottles);
+  return change;
+}
+
+console.log("Hello Master your change is: " + getMilk(5,1.5));
+
+
+
+//BMI Calculator
+function bmiCalculator (weight, height){
+  var bmi = Math.round(weight / Math.pow(height,2));
+  return bmi;
+}
+ 
+var resultBMI = bmiCalculator(65, 1.8);
+console.log("Your BMI is: " + resultBMI);
