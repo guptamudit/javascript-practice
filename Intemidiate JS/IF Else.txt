@@ -1,0 +1,15 @@
+var name = prompt("Your Name");
+var name1 = prompt("Your Crush Name");
+var n = Math.random();
+n = n * 100;
+n = Math.floor(n) + 1;
+
+if (n > 85) {
+    alert("Congo " + name + " and " + name1 + " You both are made for each other");
+    alert("Your Love Score is "  + n +"%.")
+}
+else
+{
+    alert(name + " and " + name1 + " You both can do better.");
+    alert("Your Love Score is "  + n +"%.")
+}

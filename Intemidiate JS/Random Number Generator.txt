@@ -1,0 +1,6 @@
+var name = prompt("Your Name");
+var name1 = prompt("Your Crush Name");
+var n = Math.random();
+n = n * 100;
+n = Math.floor(n) + 1;
+alert("Love Percentage for " + name + " and " + name1 + " is " + n +"%.");
