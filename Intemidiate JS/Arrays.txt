@@ -1,0 +1,39 @@
+var guestNames = ["Mudit","Aryan","Ayush","Ansh"];
+var askName = prompt("What is your name?");
+if (guestNames.includes(askName)) {
+    alert("Welcome! " + askName);
+} else {
+    alert("Sorry! " + askName + " you are not in guest list.");
+}
+
+//for adding new items:
+array_name.push()  add at last of array
+//for taking out items:
+array_name.pop   takes out last item of array
+
+
+//Interview question:
+var output = [ ];
+var count = 1;
+function fizzbuzz(){
+    if (count % 3 ===0 && count %5 === 0) {
+        output.push("FIZZ BUZZ");
+    }
+    else if (count % 3 === 0) {
+        output.push("FIzz");
+    }else if(count % 5 === 0){
+        output.push("Buzz");
+    }
+    else{
+        output.push(count);
+    }
+    count++;
+    console.log(output);
+}
+
+call the function in the output.
+
+
+
+
+
