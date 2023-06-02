@@ -34,6 +34,19 @@ function fizzbuzz(){
 call the function in the output.
 
 
+//Interview question:
+//who is buying lunch?
+function whoisPaying(names){
+
+    var numberOfPeople = names.length;
+    var randomPersonPosition = Math.floor(Math.random() * numberOfPeople);
+    var randomPerson = names[randomPersonPosition];
+
+    return randomPerson + " is going to buy lunch today!";
+}
+whoisPaying(["Mudit","Angela","Rohan"]);
+
+
 
 
 
