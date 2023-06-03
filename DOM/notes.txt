@@ -1,0 +1,5 @@
+document.getElementsByTagname(tagname)[elementposition]  fetch all the elements by the tag name
+document.getElementsByClassname(classname)[elementposition]   fetch all the items by the calss name 
+document.getElementById(id name ) fetch the indivisual id from the code
+document.querySelector(selectorname)  
+document.querySelectorAll(selectorname)[index] fetch all the items in the selector
