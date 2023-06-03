@@ -3,3 +3,17 @@ document.getElementsByClassname(classname)[elementposition]   fetch all the item
 document.getElementById(id name ) fetch the indivisual id from the code
 document.querySelector(selectorname)  
 document.querySelectorAll(selectorname)[index] fetch all the items in the selector
+
+document.querySelector().innerHtml  = "  "     gives the htm between the selected tag
+document.querySelector().textContent = "  "    gives the text in between the tags not the whole html
+document.querySelector().style.fontSize = "  "  changes styles and can be used with any css tool
+
+
+document.querySelector().classList.add("  ");   activates the class in css 
+document.querySelector().classList.remove("  ");     deactivate the class in css
+document.querySelector().classList.toggle("  ");      if class is already applied remove it......if not applied apply it.
+
+
+document.querySelector().attributes;   gives all the attributes associated with the query
+document.querySelector().getAttribute("attribute_name")   gives the  particular attribute inside the query
+document.querySelector().setAttribute("attribute_nametobeChanged" , "new content in the attribute")   change the contentinside the attribute
