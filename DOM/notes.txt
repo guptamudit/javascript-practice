@@ -1,5 +1,5 @@
 document.getElementsByTagname(tagname)[elementposition]  fetch all the elements by the tag name
-document.getElementsByClassname(classname)[elementposition]   fetch all the items by the calss name 
+document.getElementsByClassname(classname)[elementposition]   fetch all the items by the class name 
 document.getElementById(id name ) fetch the indivisual id from the code
 document.querySelector(selectorname)  
 document.querySelectorAll(selectorname)[index] fetch all the items in the selector
@@ -17,3 +17,28 @@ document.querySelector().classList.toggle("  ");      if class is already applie
 document.querySelector().attributes;   gives all the attributes associated with the query
 document.querySelector().getAttribute("attribute_name")   gives the  particular attribute inside the query
 document.querySelector().setAttribute("attribute_nametobeChanged" , "new content in the attribute")   change the contentinside the attribute
+
+document.querySelector().addEventListener(event_type, listener)     The addEventListener() method of the EventTarget interface sets up a function that will be called
+                                                                    whenever the specified event is delivered to the target.
+" this " keyword gives the identity of the button
+
+Constructor Function:
+function func_name (objects) {
+    this.ob1 = obj_name;
+    this.obj2 = obj_name;
+}
+
+Initialise Object:
+var var_name = new Func_name(values);
+
+calling Object:
+var_name.obj_name()
+
+??? Example: ????
+function HouseKeeping(name,age,workExp) {
+    this.name = name;
+    this.age = age;
+    this.workExp = workExp;
+}
+var HouseKeeping = new HouseKeeping("Angela",26,"3 Years")
+
