@@ -1,0 +1,11 @@
+in jQuery we can write // document.queryselector("h1") // this code in // jQuery("h1") // OR // $("h1") //
+
+Minify: used to minimize your code into single paragraph and reduce file size
+
+
+Manipulate styles in jQuery: // $(" ").css("css prop to be changed", "value for that prop")
+Manipulate text with jQuery: //
+
+Add class to jQuery: // $(" ").addClass("class_name")
+Remove class from jQuery: // $(" ").removeClass("class_name")
+Add multiple classes: // $(" ").addClass("class_name class_name class_name")

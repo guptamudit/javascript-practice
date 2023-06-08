@@ -1,0 +1,12 @@
+.big-title {
+  color: yellowgreen;
+  font-size: 4rem;
+  font-family: cursive;
+}
+.bg-color {
+  background-color: bisque;
+}
+.length {
+  width: 200px;
+  text-align: center;
+}
