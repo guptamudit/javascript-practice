@@ -6,10 +6,12 @@ Minify: used to minimize your code into single paragraph and reduce file size
 Manipulate styles in jQuery: // $(" ").css("css prop to be changed", "value for that prop")
 Manipulate text with jQuery: // $("" ).text(" New_text ")
 Manipulate attributes with jQuery: // $("name of tag").attr("name of attribute", "new value of the attribute")
-Add event listeners with jQuery; //
+Add event listeners with jQuery; //$(" ").on("name_of_eventlistener", "anonymous_function")
 
 Add class to jQuery: // $(" ").addClass("class_name")
 Remove class from jQuery: // $(" ").removeClass("class_name")
 Add multiple classes: // $(" ").addClass("class_name class_name class_name")
 
 Add inner html: // $(" ").html("new html code ")
+
+Add effects into the website
